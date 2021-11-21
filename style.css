@@ -382,7 +382,7 @@ body{
     box-sizing: border-box; /* Для IE и Opera */
 
 }
-@media(max-width:767px){
+@media(max-width:500px){
     .screen_title{
         font-size:40px;
     }
@@ -411,12 +411,28 @@ body{
         font-style: italic;
         font-size:15px;
     }
-    .button{
-        top:0px;
-        position: relative;
-        display: inline-block;
-    }
 
+    .card span {
+        font-size:15px;
+    }
+    .screen_content2{
+        padding:100px 25px 25px 25px;
+        position: relative;
+        z-index:2;
+        top:0px;
+    }
+    .screen_content p{
+        font-size: 15px;
+    }
+    .screen_content h2{
+        font-size: 25px;
+    }
+    .testimonials h2{
+        font-size: 25px;
+    }
+    .screen_content h2{
+        font-size:25px;
+    }
 }
 .button_div{
     display:flex;
@@ -428,15 +444,16 @@ body{
     text-decoration: none;
     position: relative;
     display: inline-block;
-    top: 50px;
+    top:20px;
     cursor: pointer;
+    height: 150px;
 }
 .button:before,
 .button:after{
     content:"";
     position:absolute;
-    width:100px;
-    height: 100px;
+    width:70px;
+    height: 70px;
     border:2px solid #8064EA;
     text-shadow:#8064EA 0 0 10px;
     top:-10px;
@@ -444,8 +461,6 @@ body{
     z-index:1;
     transition: all 0.8s ease 0s;
     margin: 0px 0px 0px -40px;
-
-
 }
 .button:before{animation:rotate 20s infinite linear;
 }
@@ -504,7 +519,8 @@ body{
 }
 .button_text{
    position:relative;
-   height: 80px;
+   height: 50px;
+
    display:flex;
    justify-content: center;
    align-items: center;
