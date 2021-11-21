@@ -158,7 +158,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: right;
-    width: 50%;
+    width: 65%;
   }
   
   .legend {
@@ -382,7 +382,7 @@ body{
     box-sizing: border-box; /* Для IE и Opera */
 
 }
-@media(max-width:500px){
+@media(max-width:700px){
     .screen_title{
         font-size:40px;
     }
@@ -396,21 +396,21 @@ body{
 
     .text p{
         font-size:8px;
-        text-align: left;
+        text-align: center;
 
     }
     .text ul{
-        text-align: left;
+        text-align: center;
         font-size:12px;
     }
     .text h2{
         font-size:20px;
-        text-align: left;
+        text-align: center;
         
     }
     .card p {
         font-style: italic;
-        font-size:15px;
+        font-size:12px;
     }
 
     .card span {
@@ -434,6 +434,7 @@ body{
     .screen_content h2{
         font-size:25px;
     }
+    
 }
 .button_div{
     display:flex;
@@ -445,16 +446,16 @@ body{
     text-decoration: none;
     position: relative;
     display: inline-block;
-    top:20px;
+    top:10px;
     cursor: pointer;
-    height: 150px;
+    height: 10px;
 }
 .button:before,
 .button:after{
     content:"";
     position:absolute;
-    width:70px;
-    height: 70px;
+    width:80px;
+    height: 80px;
     border:2px solid #8064EA;
     text-shadow:#8064EA 0 0 10px;
     top:-10px;
@@ -520,7 +521,7 @@ body{
 }
 .button_text{
    position:relative;
-   height: 50px;
+   height: 60px;
 
    display:flex;
    justify-content: center;
