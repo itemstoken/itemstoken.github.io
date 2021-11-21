@@ -382,7 +382,7 @@ body{
     box-sizing: border-box; /* Для IE и Opera */
 
 }
-@media(max-width:700px){
+@media(max-width:500px){
     .screen_title{
         font-size:40px;
     }
@@ -395,13 +395,13 @@ body{
     }
 
     .text p{
-        font-size:8px;
+        font-size:15px;
         text-align: center;
 
     }
     .text ul{
         text-align: center;
-        font-size:12px;
+        font-size:15px;
     }
     .text h2{
         font-size:20px;
@@ -410,7 +410,7 @@ body{
     }
     .card p {
         font-style: italic;
-        font-size:12px;
+        font-size:15px;
     }
 
     .card span {
@@ -434,7 +434,17 @@ body{
     .screen_content h2{
         font-size:25px;
     }
-    
+    .screen_content3 p{
+        font-size:5px;
+    }
+    .Algin{
+        padding:2px;
+    }
+    .legend {
+        max-width: 250px;
+        margin-left: 50%;
+        text-align: left;
+      }
 }
 .button_div{
     display:flex;
