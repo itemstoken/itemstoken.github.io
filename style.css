@@ -121,6 +121,7 @@ body{
     position: relative;
     z-index:5; 
     text-align: center;
+    height: 100%;
 }
 .screen_content h2{
     text-align: center;
@@ -255,30 +256,24 @@ body{
   
   .unit:nth-child(1) {
     stroke: #009e1a;
-    stroke-dasharray: 30 100;
-
-
+    stroke-dasharray: 40 100;
+    stroke-dashoffset: 0;
   }
-  
   .unit:nth-child(2) {
     stroke: #0011aa;
-    stroke-dasharray: 30 100;
-    stroke-dashoffset: -30;
+    stroke-dasharray: 10 100;
+    stroke-dashoffset: -40;
   }
-  
   .unit:nth-child(3) {
     stroke: #a0006b;
-    stroke-dasharray: 20 100;
-    stroke-dashoffset: -60;
+    stroke-dasharray: 30 100;
+    stroke-dashoffset: -50;
   }
-  
   .unit:nth-child(4) {
     stroke: #ac7500;
-    stroke-dasharray: 20 100;
+    stroke-dasharray: 40 100;
     stroke-dashoffset: -80;
   }
-  
-
 .screen_title_bg{
     
     text-align: center;
@@ -712,3 +707,19 @@ html, body {
     color:white;
     display: block;
 }
+a.but {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+
+  }
+  
+  .but1 {
+    margin: 24px;
+    text-align: center;
+  }
